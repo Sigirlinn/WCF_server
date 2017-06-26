@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="eceba3c0-1e32-4e02-8f71-92d046ee7a1b" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://192.168.0.100:9312" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="item.xsd" MetadataType="Schema" ID="e43ff7f9-a4f7-42b6-9edd-b48def5788e0" SourceId="1" SourceUrl="http://192.168.0.100:9312/?xsd=xsd3" />
+    <MetadataFile FileName="Service.wsdl" MetadataType="Wsdl" ID="c4e1bc52-e625-40b2-b4f4-befbaba32dd0" SourceId="1" SourceUrl="http://192.168.0.100:9312/?wsdl" />
+    <MetadataFile FileName="item1.xsd" MetadataType="Schema" ID="982a5fd2-2c07-4344-8a0d-b4654da1c1eb" SourceId="1" SourceUrl="http://192.168.0.100:9312/?xsd=xsd1" />
+    <MetadataFile FileName="item2.xsd" MetadataType="Schema" ID="280ae16d-cfd7-4b8f-a7f4-5ad243cc0b51" SourceId="1" SourceUrl="http://192.168.0.100:9312/?xsd=xsd0" />
+    <MetadataFile FileName="item3.xsd" MetadataType="Schema" ID="c5bef4a7-3594-401b-989a-90a321b7a992" SourceId="1" SourceUrl="http://192.168.0.100:9312/?xsd=xsd2" />
+    <MetadataFile FileName="item.disco" MetadataType="Disco" ID="14075067-543a-41f7-8ef0-d114aaf73a03" SourceId="1" SourceUrl="http://192.168.0.100:9312/?disco" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
